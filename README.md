@@ -1,4 +1,4 @@
-API de Gerenciamento de Corrida e Usuários (api_login)
+API de Gerenciamento de Corrida e Usuários
 Este documento explica de forma simples como a nossa API foi feita, mostrando as tecnologias que usamos, como as pastas estão organizadas e o que o sistema consegue fazer.
 
 1. Tecnologias Utilizadas
@@ -34,4 +34,10 @@ Registro de Tempos: Salva os tempos de cada volta e a velocidade de um corredor 
 Histórico de Desempenho: Mostra relatórios para ver quem correu mais rápido por atleta ou por dia de corrida.
 
 D) Teste de Funcionamento (/test)
-Teste de Conexão: Uma rota simples que responde apenas um "OK" em formato JSON para o programador testar se o servidor está ligado e funcionando perfeitamente.
+Teste de Conexão: Uma rota simples que responde apenas um "OK" em formato JSON para testar se o servidor está ligado e funcionando perfeitamente.
+
+
+Integrante 1 (Gabriel Moreira): Foi o responsável por criar e estruturar o banco de dados do sistema utilizando o MySQL Workbench.
+Integrante 2 (João Guilherme): Desenvolveu toda a parte do Back-End, configurando o servidor, a conexão com o banco e todas as rotas de usuários, corredores e voltas.
+Integrante 3 (João Vitor): Trabalhou em parceria no desenvolvimento do Front-End da aplicação, cuidando do design das telas do sistema.
+Integrante 4 (Isabela Scalhon): Trabalhou em parceria no desenvolvimento do Front-End da aplicação, cuidadndo da experiência do usuário e auxiliando na integração com as rotas de dados.
